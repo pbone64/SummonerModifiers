@@ -1,0 +1,3 @@
+displayName = Summoner Modifiers
+author = pbone
+version = 0.1
