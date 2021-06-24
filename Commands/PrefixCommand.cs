@@ -5,7 +5,7 @@ namespace SummonerModifiers.Commands
 {
     public class PrefixCommand : ModCommand
     {
-        public override bool Autoload(ref string name) => true;
+        public override bool Autoload(ref string name) => false;
 
         public override string Command => "pre";
 
