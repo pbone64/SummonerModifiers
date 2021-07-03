@@ -11,12 +11,7 @@ namespace SummonerModifiers.Items
     {
         public override int ChoosePrefix(Item item, UnifiedRandom rand)
         {
-            // I would check ProjectileID.Sets.MinionSacrificable BUT calamity is baby and raged at minion resummoning so they didn't set it to true
-            // This should in theory work, as only summoner weapons that shoot a pet (ie a minion) will fulfill it
             if (!item.summon || item.damage < 1)
-                return base.ChoosePrefix(item, rand);
-
-            if (!Main.projPet[item.shoot])
                 return base.ChoosePrefix(item, rand);
 
             // It looks like vanilla has an equal change for each prefix

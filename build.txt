@@ -1,6 +1,6 @@
 displayName = Summoner Modifiers
 author = pbone
-version = 1.0
+version = 1.0.1
 homepage = https://forums.terraria.org/index.php?threads/summoner-modifiers.106171/
 hideCode = false
 includePDB = true
